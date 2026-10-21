@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "locations": [
+    {
+      "id": "home",
+      "name": "Home",
+      "type": "House",
+      "parentId": null
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "type": "Room",
+      "parentId": "home"
+    },
+    {
+      "id": "desk",
+      "name": "Oak desk",
+      "type": "Storage",
+      "parentId": "office"
+    },
+    {
+      "id": "cables",
+      "name": "Cable drawer",
+      "type": "Drawer",
+      "parentId": "desk"
+    },
+    {
+      "id": "bookcase",
+      "name": "Bookcase",
+      "type": "Shelf",
+      "parentId": "office"
+    },
+    {
+      "id": "garage",
+      "name": "Garage",
+      "type": "Room",
+      "parentId": "home"
+    },
+    {
+      "id": "metal",
+      "name": "Metal shelving",
+      "type": "Storage",
+      "parentId": "garage"
+    },
+    {
+      "id": "tools",
+      "name": "Tool bin",
+      "type": "Container",
+      "parentId": "metal"
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "type": "Room",
+      "parentId": "home"
+    },
+    {
+      "id": "pantry",
+      "name": "Pantry",
+      "type": "Storage",
+      "parentId": "kitchen"
+    },
+    {
+      "id": "living",
+      "name": "Living room",
+      "type": "Room",
+      "parentId": "home"
+    },
+    {
+      "id": "media",
+      "name": "Media cabinet",
+      "type": "Storage",
+      "parentId": "living"
+    },
+    {
+      "id": "top",
+      "name": "Top drawer",
+      "type": "Drawer",
+      "parentId": "media"
+    },
+    {
+      "id": "bedroom",
+      "name": "Bedroom",
+      "type": "Room",
+      "parentId": "home"
+    },
+    {
+      "id": "wardrobe",
+      "name": "Wardrobe",
+      "type": "Storage",
+      "parentId": "bedroom"
+    },
+    {
+      "id": "gear",
+      "name": "Gear shelf",
+      "type": "Shelf",
+      "parentId": "wardrobe"
+    }
+  ],
+  "items": [
+    {
+      "id": "item_1",
+      "name": "Sony WH-1000XM4",
+      "category": "Electronics",
+      "quantity": 1,
+      "locationId": "desk",
+      "tags": [
+        "audio",
+        "daily-use"
+      ],
+      "value": 249,
+      "art": "headphones",
+      "notes": "Travel headphones. USB-C charging cable stored in the cable drawer.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T18:00:00.000Z",
+      "updatedAt": "2026-10-17T18:00:00.000Z"
+    },
+    {
+      "id": "item_2",
+      "name": "USB-C charging cables",
+      "category": "Electronics",
+      "quantity": 4,
+      "locationId": "cables",
+      "tags": [
+        "cables",
+        "usb-c"
+      ],
+      "value": 12,
+      "art": "cable",
+      "notes": "1 m braided cables. Two black, two gray.",
+      "lowStock": 2,
+      "photo": "",
+      "createdAt": "2026-10-17T17:00:00.000Z",
+      "updatedAt": "2026-10-17T17:00:00.000Z"
+    },
+    {
+      "id": "item_3",
+      "name": "GEPRC Cinebot35",
+      "category": "Electronics",
+      "quantity": 1,
+      "locationId": "gear",
+      "tags": [
+        "fpv",
+        "drone"
+      ],
+      "value": 340,
+      "art": "drone",
+      "notes": "3.5-inch FPV quad. Check props and motors before each flight.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T16:00:00.000Z",
+      "updatedAt": "2026-10-17T16:00:00.000Z"
+    },
+    {
+      "id": "item_4",
+      "name": "Cordless drill kit",
+      "category": "Tools",
+      "quantity": 1,
+      "locationId": "tools",
+      "tags": [
+        "power-tools",
+        "diy"
+      ],
+      "value": 129,
+      "art": "drill",
+      "notes": "18V drill, charger, and one battery in the carry case.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T15:00:00.000Z",
+      "updatedAt": "2026-10-17T15:00:00.000Z"
+    },
+    {
+      "id": "item_5",
+      "name": "Climbing quickdraws",
+      "category": "Outdoor",
+      "quantity": 12,
+      "locationId": "gear",
+      "tags": [
+        "climbing",
+        "hardware"
+      ],
+      "value": 22,
+      "art": "carabiner",
+      "notes": "Sport climbing set. Inspect slings before use.",
+      "lowStock": 4,
+      "photo": "",
+      "createdAt": "2026-10-17T14:00:00.000Z",
+      "updatedAt": "2026-10-17T14:00:00.000Z"
+    },
+    {
+      "id": "item_6",
+      "name": "AA rechargeable batteries",
+      "category": "Electronics",
+      "quantity": 2,
+      "locationId": "top",
+      "tags": [
+        "batteries",
+        "rechargeable"
+      ],
+      "value": 4,
+      "art": "battery",
+      "notes": "Charged spares for controllers and household devices.",
+      "lowStock": 4,
+      "photo": "",
+      "createdAt": "2026-10-17T13:00:00.000Z",
+      "updatedAt": "2026-10-17T13:00:00.000Z"
+    },
+    {
+      "id": "item_7",
+      "name": "Ceramic espresso cups",
+      "category": "Kitchen",
+      "quantity": 6,
+      "locationId": "pantry",
+      "tags": [
+        "coffee",
+        "ceramic"
+      ],
+      "value": 9,
+      "art": "mug",
+      "notes": "Two-ounce cups with matching saucers.",
+      "lowStock": 2,
+      "photo": "",
+      "createdAt": "2026-10-17T12:00:00.000Z",
+      "updatedAt": "2026-10-17T12:00:00.000Z"
+    },
+    {
+      "id": "item_8",
+      "name": "The C++ Programming Language",
+      "category": "Books",
+      "quantity": 1,
+      "locationId": "bookcase",
+      "tags": [
+        "programming",
+        "reference"
+      ],
+      "value": 55,
+      "art": "book",
+      "notes": "Fourth edition. Notes tucked inside the front cover.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T11:00:00.000Z",
+      "updatedAt": "2026-10-17T11:00:00.000Z"
+    },
+    {
+      "id": "item_9",
+      "name": "RadioMaster Boxer",
+      "category": "Electronics",
+      "quantity": 1,
+      "locationId": "gear",
+      "tags": [
+        "fpv",
+        "radio"
+      ],
+      "value": 140,
+      "art": "controller",
+      "notes": "ELRS 2.4 GHz transmitter. Remove cells before long-term storage.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T10:00:00.000Z",
+      "updatedAt": "2026-10-17T10:00:00.000Z"
+    },
+    {
+      "id": "item_10",
+      "name": "Walksnail Goggles X",
+      "category": "Electronics",
+      "quantity": 1,
+      "locationId": "gear",
+      "tags": [
+        "fpv",
+        "video"
+      ],
+      "value": 459,
+      "art": "goggles",
+      "notes": "Goggles, antennas, and HDMI cable in padded case.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T09:00:00.000Z",
+      "updatedAt": "2026-10-17T09:00:00.000Z"
+    },
+    {
+      "id": "item_11",
+      "name": "Precision screwdriver set",
+      "category": "Tools",
+      "quantity": 1,
+      "locationId": "tools",
+      "tags": [
+        "repair",
+        "electronics"
+      ],
+      "value": 34,
+      "art": "tool",
+      "notes": "64-bit set. Includes Torx bits and flexible extension.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T08:00:00.000Z",
+      "updatedAt": "2026-10-17T08:00:00.000Z"
+    },
+    {
+      "id": "item_12",
+      "name": "M4 machine screws",
+      "category": "Tools",
+      "quantity": 36,
+      "locationId": "tools",
+      "tags": [
+        "hardware",
+        "fasteners"
+      ],
+      "value": 0.25,
+      "art": "screws",
+      "notes": "M4 × 12 mm stainless steel. Small labeled bag.",
+      "lowStock": 10,
+      "photo": "",
+      "createdAt": "2026-10-17T07:00:00.000Z",
+      "updatedAt": "2026-10-17T07:00:00.000Z"
+    },
+    {
+      "id": "item_13",
+      "name": "Rolled oats",
+      "category": "Kitchen",
+      "quantity": 1,
+      "locationId": "pantry",
+      "tags": [
+        "food",
+        "breakfast"
+      ],
+      "value": 6,
+      "art": "jar",
+      "notes": "One sealed 1 kg jar.",
+      "lowStock": 1,
+      "photo": "",
+      "createdAt": "2026-10-17T06:00:00.000Z",
+      "updatedAt": "2026-10-17T06:00:00.000Z"
+    },
+    {
+      "id": "item_14",
+      "name": "Linen pillow covers",
+      "category": "Home",
+      "quantity": 4,
+      "locationId": "media",
+      "tags": [
+        "linen",
+        "living-room"
+      ],
+      "value": 15,
+      "art": "fabric",
+      "notes": "Spare sage and cream cushion covers.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T05:00:00.000Z",
+      "updatedAt": "2026-10-17T05:00:00.000Z"
+    },
+    {
+      "id": "item_15",
+      "name": "Trail daypack · 22L",
+      "category": "Outdoor",
+      "quantity": 1,
+      "locationId": "wardrobe",
+      "tags": [
+        "hiking",
+        "travel"
+      ],
+      "value": 89,
+      "art": "bag",
+      "notes": "Rain cover is in the bottom zip pocket.",
+      "lowStock": 0,
+      "photo": "",
+      "createdAt": "2026-10-17T04:00:00.000Z",
+      "updatedAt": "2026-10-17T04:00:00.000Z"
+    },
+    {
+      "id": "item_16",
+      "name": "USB-C wall adapters",
+      "category": "Electronics",
+      "quantity": 2,
+      "locationId": "cables",
+      "tags": [
+        "charging",
+        "usb-c"
+      ],
+      "value": 25,
+      "art": "charger",
+      "notes": "65W dual-port adapters.",
+      "lowStock": 1,
+      "photo": "",
+      "createdAt": "2026-10-17T03:00:00.000Z",
+      "updatedAt": "2026-10-17T03:00:00.000Z"
+    },
+    {
+      "id": "item_17",
+      "name": "Field notebook",
+      "category": "Books",
+      "quantity": 3,
+      "locationId": "desk",
+      "tags": [
+        "stationery",
+        "project"
+      ],
+      "value": 8,
+      "art": "notebook",
+      "notes": "Unused dotted notebooks for project notes.",
+      "lowStock": 1,
+      "photo": "",
+      "createdAt": "2026-10-17T02:00:00.000Z",
+      "updatedAt": "2026-10-17T02:00:00.000Z"
+    },
+    {
+      "id": "item_18",
+      "name": "First aid kit",
+      "category": "Outdoor",
+      "quantity": 1,
+      "locationId": "gear",
+      "tags": [
+        "safety",
+        "hiking"
+      ],
+      "value": 28,
+      "art": "firstaid",
+      "notes": "Check refill list before trips. Adhesive bandages running low.",
+      "lowStock": 1,
+      "photo": "",
+      "createdAt": "2026-10-17T01:00:00.000Z",
+      "updatedAt": "2026-10-17T01:00:00.000Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "welcome",
+      "text": "Sample inventory is ready to explore",
+      "at": "2026-10-17T18:00:00.000Z",
+      "kind": "sample"
+    }
+  ]
+}
